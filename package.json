@@ -1,0 +1,13 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"No tests\"",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.0.0"
+  }
+}
